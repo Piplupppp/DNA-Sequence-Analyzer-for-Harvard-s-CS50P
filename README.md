@@ -110,3 +110,5 @@ Run tests with:
 ## Author
 
 Created as final project for CS50’s "Introduction to Programming with Python" by Giulia Trentarossi (March 2026, Italy).
+
+Linkedin profile: www.linkedin.com/in/giulia-trentarossi-8a67273a4
