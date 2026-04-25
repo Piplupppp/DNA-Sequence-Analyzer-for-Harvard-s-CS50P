@@ -1,8 +1,9 @@
 # DNA Sequence Analyzer
+[Last updated on 25th April 2026]
 
 ## Video Demo
 
-<URL HERE>
+<https://youtu.be/E2spFOpPmSA>
 
 ## Description
 
@@ -15,6 +16,8 @@ It takes as input a DNA sequence (manually or from a FASTA file), validates it, 
 The program supports both standard nucleotides (A, C, G, T) and ambiguous nucleotides (N, R, Y).
 
 Ambiguous nucleotides (N, R, Y) are accepted during validation, but they are currently excluded from GC content calculation.
+
+LATEST EDITION (25th April 2026): the program now supports a basic version of a function which translates mRNA sequence into Amino Acid Sequence.
 
 ## Workflow
 
@@ -32,6 +35,7 @@ Ambiguous nucleotides (N, R, Y) are accepted during validation, but they are cur
     * transcription()
     * reverse_complement()
     * print_analysis()
+    * LATEST EDITION (25th April 2026): translation()
 
 ## Features
 
@@ -41,6 +45,7 @@ Ambiguous nucleotides (N, R, Y) are accepted during validation, but they are cur
 * GC content calculation
 * DNA > RNA transcription
 * Reverse complement generation
+* LATEST EDITION (25th April 2026): mRNA > Amino Acid Sequence translation
 
 ## How It Works
 
@@ -56,6 +61,7 @@ After validation, the program outputs:
 * GC content
 * RNA sequence
 * Reverse complement
+* LATEST EDITION (25th April 2026): corresponding Amino Acid Sequence
 
 ## Project Structure
 
@@ -76,6 +82,7 @@ Output:
 * GC Content: 66.67%
 * RNA: AUGCGC
 * Reverse Complement: GCGCAT
+* LATEST EDITION (25th April 2026): Amino Acid Sequence: MR
 
 ## Example_2
 
@@ -89,6 +96,7 @@ Output:
 * GC Content: 48.15%
 * RNA: AUGCGUACGUAGCUAGCUAGCUAGCUA
 * Reverse Complement: TAGCTAGCTAGCTAGCTACGTACGCAT
+* LATEST EDITION (25th April 2026): Amino Acid Sequence: MRT
 
 ## Example_3
 
@@ -104,11 +112,10 @@ Run tests with:
 
 ## Future Improvements
 
-* Translation from RNA to protein
+* Translation from RNA to protein > NOW IMPLEMENTED (25th April 2026)
+* Improve translation function
 * ORF detection
 
 ## Author
 
 Created as final project for CS50’s "Introduction to Programming with Python" by Giulia Trentarossi (March 2026, Italy).
-
-Linkedin profile: www.linkedin.com/in/giulia-trentarossi-8a67273a4
